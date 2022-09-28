@@ -1,0 +1,8 @@
+$blue-color: rgb(0, 102, 255);
+
+@import "Component/Home/Home";
+
+body {
+  background-color: $blue-color;
+  height: 780px;
+}

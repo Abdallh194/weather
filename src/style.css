@@ -1,0 +1,57 @@
+.Home {
+  width: 50%;
+  margin: 50px auto;
+  border: 1px solid #888;
+  background: url("Component/Home/sky.jpg");
+  background-size: cover;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+}
+.Home .head {
+  font-family: fantasy;
+  font-size: 50px;
+}
+.Home input {
+  height: 50px;
+  margin: 10px 0;
+}
+.Home button {
+  width: 100%;
+  height: 50px;
+}
+.Home .result {
+  padding: 20px 5px;
+  color: rgb(0, 102, 255);
+}
+.Home .result .temp {
+  font-size: 72px;
+  font-weight: bold;
+}
+.Home .footer {
+  display: flex;
+  color: rgb(0, 102, 255);
+}
+.Home .footer .wind,
+.Home .footer .hum {
+  width: 50%;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid white;
+}
+.Home .footer .wind i,
+.Home .footer .hum i {
+  font-size: 29px;
+}
+@media (max-width: 767px) {
+  .Home {
+    width: 90%;
+    margin-top: 180px;
+  }
+}
+
+body {
+  background-color: rgb(0, 102, 255);
+  height: 780px;
+}/*# sourceMappingURL=style.css.map */

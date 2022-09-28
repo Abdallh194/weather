@@ -1,0 +1,4 @@
+ "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+
+  "homepage": "https://Abdallh194.github.io/ASR/",
